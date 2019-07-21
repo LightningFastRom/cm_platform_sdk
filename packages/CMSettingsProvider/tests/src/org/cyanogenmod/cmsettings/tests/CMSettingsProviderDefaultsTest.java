@@ -93,9 +93,6 @@ public class CMSettingsProviderDefaultsTest extends AndroidTestCase {
                 CMSettings.Secure.QS_USE_MAIN_TILES,
                 "R.bool.def_sysui_qs_main_tiles"));
         SECURE_SETTINGS_DEFAULTS.add(new Setting(
-                CMSettings.Secure.STATS_COLLECTION,
-                "R.bool.def_stats_collection"));
-        SECURE_SETTINGS_DEFAULTS.add(new Setting(
                 CMSettings.Secure.DEFAULT_THEME_COMPONENTS,
                 "R.string.def_theme_components"));
         SECURE_SETTINGS_DEFAULTS.add(new Setting(

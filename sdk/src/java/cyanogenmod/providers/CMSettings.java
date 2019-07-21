@@ -2675,20 +2675,6 @@ public final class CMSettings {
         public static final String QS_USE_MAIN_TILES = "sysui_qs_main_tiles";
 
         /**
-         * Global stats collection
-         * @hide
-         */
-        public static final String STATS_COLLECTION = "stats_collection";
-
-        /**
-         * Whether the global stats collection setting has been successfully reported to server
-         * @hide
-         * @deprecated {@link org.cyanogenmod.cmparts.cmstats.AnonymousStats} no longer uses this
-         */
-        @Deprecated
-        public static final String STATS_COLLECTION_REPORTED = "stats_collection_reported";
-
-        /**
          * Whether newly installed apps should run with privacy guard by default
          * @hide
          */
@@ -2989,7 +2975,6 @@ public final class CMSettings {
                 CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR,
                 CMSettings.Secure.KEYBOARD_BRIGHTNESS,
                 CMSettings.Secure.POWER_MENU_ACTIONS,
-                CMSettings.Secure.STATS_COLLECTION,
                 CMSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER,
                 CMSettings.Secure.QS_TILES,
                 CMSettings.Secure.QS_USE_MAIN_TILES,

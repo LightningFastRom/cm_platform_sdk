@@ -378,9 +378,6 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
             loadBooleanSetting(stmt, CMSettings.Secure.QS_USE_MAIN_TILES,
                     R.bool.def_sysui_qs_main_tiles);
 
-            loadBooleanSetting(stmt, CMSettings.Secure.STATS_COLLECTION,
-                    R.bool.def_stats_collection);
-
             loadStringSetting(stmt,
                     CMSettings.Secure.PROTECTED_COMPONENT_MANAGERS,
                     R.string.def_protected_component_managers);
