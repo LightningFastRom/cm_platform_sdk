@@ -381,9 +381,6 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
             loadBooleanSetting(stmt, CMSettings.Secure.STATS_COLLECTION,
                     R.bool.def_stats_collection);
 
-            loadBooleanSetting(stmt, CMSettings.Secure.LOCKSCREEN_VISUALIZER_ENABLED,
-                    R.bool.def_lockscreen_visualizer);
-
             loadStringSetting(stmt,
                     CMSettings.Secure.PROTECTED_COMPONENT_MANAGERS,
                     R.string.def_protected_component_managers);

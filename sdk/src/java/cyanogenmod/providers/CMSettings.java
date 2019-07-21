@@ -2825,13 +2825,6 @@ public final class CMSettings {
         public static final String QS_LOCATION_ADVANCED = "qs_location_advanced";
 
         /**
-         * Whether to show the keyguard visualizer.
-         * Boolean setting. 0 = off, 1 = on.
-         * @hide
-         */
-        public static final String LOCKSCREEN_VISUALIZER_ENABLED = "lockscreen_visualizer";
-
-        /**
          * Whether to show media art on lockscreen
          * Boolean setting. 0 = off, 1 = on.
          * @hide
@@ -3020,7 +3013,6 @@ public final class CMSettings {
                 CMSettings.Secure.PERFORMANCE_PROFILE,
                 CMSettings.Secure.APP_PERFORMANCE_PROFILES_ENABLED,
                 CMSettings.Secure.QS_LOCATION_ADVANCED,
-                CMSettings.Secure.LOCKSCREEN_VISUALIZER_ENABLED,
                 CMSettings.Secure.LOCK_PASS_TO_SECURITY_VIEW
         };
 
